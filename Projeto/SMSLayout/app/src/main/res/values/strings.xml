@@ -4,4 +4,10 @@
     <string name="enviar">Enviar</string>
     <string name="mensagem">Mensagem:</string>
     <string name="para">Para:</string>
+
+    <!--  Main_swOk   -->
+    <string name="P_MainSwOk">Você deseja permitir poder enviar SMS?</string>
+    <string name="RP_MainSwOk">SIM</string>
+    <string name="RN_MainSwOk">NÃO</string>
+
 </resources>

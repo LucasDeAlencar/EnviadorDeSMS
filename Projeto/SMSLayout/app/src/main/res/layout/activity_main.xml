@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".View.MainActivity">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
             android:textStyle="bold"/>
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/editPara"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:ems="10"
@@ -32,7 +32,7 @@
             android:inputType="textMultiLine"/>
 
         <EditText
-            android:id="@+id/editSMS"
+            android:id="@+id/editMensagem"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:ems="10"
@@ -46,10 +46,11 @@
 
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnEnviar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/enviar"
+                android:enabled="false"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.262"
@@ -58,13 +59,13 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <Switch
-                android:id="@+id/switch1"
+                android:id="@+id/swOk"
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
-                android:text="On"
+                android:text="Off"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/button"
+                app:layout_constraintStart_toEndOf="@+id/btnEnviar"
                 app:layout_constraintTop_toTopOf="parent" />
 
 
